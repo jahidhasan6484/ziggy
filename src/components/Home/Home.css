@@ -1,0 +1,64 @@
+.hero_photo {
+    background-image: url('../../images/bg.png');
+    background-color: #F2F6F9;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 2rem;
+}
+
+.sub_title {
+    color: gray;
+    letter-spacing: 0.5px;
+}
+
+
+.hero_photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_image {
+    width: 500px;
+}
+
+.shop_now_button {
+    border: 1px solid #cacaca;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.shop_now_button svg {
+    padding-left: 5px;
+}
+
+.shop_now_button:hover svg {
+    padding-left: 10px;
+}
+
+.category {
+    padding-top: 2rem;
+    height: 30vh;
+}
+
+.category_card {
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
